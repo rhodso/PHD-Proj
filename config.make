@@ -8,7 +8,7 @@
 #   The location of your root openFrameworks installation
 #       (default) OF_ROOT = ../../.. 
 ################################################################################
-# OF_ROOT = ../../..
+#OF_ROOT = ../../..
 
 ################################################################################
 # PROJECT ROOT
@@ -37,7 +37,7 @@
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-# PROJECT_EXTERNAL_SOURCE_PATHS = 
+PROJECT_EXTERNAL_SOURCE_PATHS += /home/rhodso/ode-0.16.2/include
 
 ################################################################################
 # PROJECT EXCLUSIONS
@@ -78,6 +78,8 @@
 # incorporated directly into the final executable application binary.
 # TODO: should this be a default setting?
 # PROJECT_LDFLAGS=-Wl,-rpath=./libs
+
+PROJECT_LDFLAGS += -I /home/rhodso/ode-0.16.2/include -lode -L /home/rhodso/ode-0.16.2/ode/src/.libs -ldrawstuff -L /home/rhodso/ode-0.16.2/drawstuff/src/.libs
 
 ################################################################################
 # PROJECT DEFINES

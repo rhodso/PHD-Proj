@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "${workspaceRoot}/../../../../addons"
+		},
+		{
+			"path": "~/ode-0.16.2"
 		}
 	],
 	"settings": {}
