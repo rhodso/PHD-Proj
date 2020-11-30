@@ -3,7 +3,11 @@
 #include <ode/ode.h>
 
 //--------------------------------------------------------------
-void ofApp::setup() { dInitODE2(0); }
+void ofApp::setup() {
+  // These two lines are just here to make sure that oF and ODE work
+  dInitODE2(0);
+  ofRectangle r;
+}
 
 //--------------------------------------------------------------
 void ofApp::update() {}
