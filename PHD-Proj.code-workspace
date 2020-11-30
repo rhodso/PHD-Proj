@@ -1,16 +1,12 @@
 {
 	"folders": [
 		{
+			"name": "PHD-Proj",
 			"path": "."
 		},
 		{
-			"path": "${workspaceRoot}/../../../../libs/openFrameworks"
-		},
-		{
-			"path": "${workspaceRoot}/../../../../addons"
-		},
-		{
-			"path": "~/ode-0.16.2"
+			"name": "ofxOpenVR",
+			"path": "~/oF/addons/ofxOpenVR"
 		}
 	],
 	"settings": {}
