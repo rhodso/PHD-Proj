@@ -1,1 +1,1 @@
-#ofxOpenVR
+ofxOpenVR
