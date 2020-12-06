@@ -107,7 +107,7 @@ PROJECT_LDFLAGS += -I /home/rhodso/ode-0.16.2/include -lode -L /home/rhodso/ode-
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-# PROJECT_CFLAGS = 
+PROJECT_CFLAGS += -w
 
 ################################################################################
 # PROJECT OPTIMIZATION CFLAGS
