@@ -5,8 +5,12 @@
 			"path": "."
 		},
 		{
-			"name": "ofxOpenVR",
-			"path": "~/oF/addons/ofxOpenVR"
+			"name": "ofxOpenVRUtil",
+			"path": "~/oF/addons/ofxOpenVRUtil"
+		},
+		{
+			"name": "openVR",
+			"path": "~/oF/addons/ofxOpenVRUtils/openvr"
 		}
 	],
 	"settings": {}

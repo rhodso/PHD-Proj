@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "clear; make clean; make -j8",
+            "command": "clear; make clean; make -k -j16",
             "args": []
         }
     ]
