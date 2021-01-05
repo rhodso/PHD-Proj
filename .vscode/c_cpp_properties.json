@@ -30,7 +30,10 @@
                 "~/ode-0.16.2/src/.libs",
                 "~/ode-0.16.2/drawstuff/src/.libs",
                 "${workspaceRoot}",
-                "${workspaceFolder}/src/"
+                "${workspaceFolder}/src/",
+                "~/oF/addons.ofxOpenVR2/",
+                "/home/rhodso/oF/addons/ofxOpenVR2/src",
+                "/home/rhodso/oF/addons/ofxOpenVR2/libs/src"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,

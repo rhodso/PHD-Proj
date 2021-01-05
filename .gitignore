@@ -1,1 +1,4 @@
 getOpenVR2.sh
+obj/*
+bin*
+

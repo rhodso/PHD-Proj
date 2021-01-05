@@ -1,10 +1,12 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxOpenVR.h"
 
 class ofApp : public ofBaseApp {
  public:
   void setup();
+  void exit();
   void update();
   void draw();
 
@@ -20,5 +22,19 @@ class ofApp : public ofBaseApp {
   void dragEvent(ofDragInfo dragInfo);
   void gotMessage(ofMessage msg);
 
+  void render(vr::Hmd_Eye nEye);
+  void controllerEvent(ofxOpenVRControllerEventArgs& args);
+
+ private:
   ofRectangle f;
+
+  ofxOpenVR _openVR;
+
+  ofImage _texture;
+  ofBoxPrimitive _box;
+  ofMatrix4x4 _translateMatrix;
+  ofShader _shader;
+
+  ofBoxPrimitive _controllerBox;
+  ofShader _controllersShader;
 };
